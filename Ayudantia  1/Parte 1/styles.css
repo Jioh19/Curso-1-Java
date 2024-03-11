@@ -1,0 +1,46 @@
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header {
+  border: red solid 10px;
+}
+
+nav {
+  border: blue solid 10px;
+}
+
+main {
+  border: 10px green solid;
+}
+
+section {
+  border: gold 10px solid;
+}
+
+p {
+  border: lightblue 10px solid;
+  background-color:yellow;
+}
+
+.alternativo {
+  background-color: black;
+  color: white;
+}
+
+img {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  border-radius: 15px;
+}
+
+iframe {
+  display: block;
+  margin: 2rem auto;
+}
