@@ -9,59 +9,108 @@
 }
 
 body {
-  background-color: red;
+	background-color: red;
 }
 h1 {
-  img {
-    display: block;
-    margin: auto;
-  }
+	img {
+		display: block;
+		margin: auto;
+    width: 95vw;
+	}
 }
 
 ul {
-  display: flex;
-  gap: 1rem;
-  justify-content: end;
+	display: flex;
+	gap: 1rem;
+	justify-content: end;
 }
 
 .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .card {
-  display: block;
-  margin: auto;
-  width: 20rem;
-  height: 32rem;
-  border: gold 5px solid;
-  border-radius: 20px;
+	display: block;
+	margin: auto;
+	width: 20rem;
+	height: 32rem;
+	border: gold 5px solid;
+	border-radius: 20px;
 }
 
 .card-interior {
-  width: 100%;
-  height: 100%;
-  border: black 2px solid;
-  border-radius: 18px;
-  background-color: lightgreen;
-  p {
-    text-align: center;
-    padding: 1rem;
-  }
+	width: 100%;
+	height: 100%;
+	border: black 2px solid;
+	border-radius: 18px;
+	background-color: lightgreen;
+	p {
+		text-align: center;
+		padding: 1rem;
+	}
 }
 
 .card-interior img {
-  display: block;
-  margin: auto;
-  width: 16rem;
-  border: black solid 2px;
+	display: block;
+	margin: auto;
+	width: 16rem;
+	height: 16rem;
+	border: black solid 2px;
 }
 
 button {
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 
-  width: 10rem;
-  height: 3rem;
-  border-radius: 10px;
-  background-color: gold;
+	width: 10rem;
+	height: 3rem;
+	border-radius: 10px;
+	background-color: gold;
+}
 
+/* Barra redes */
+.social {
+	position: fixed;
+	left: 0;
+	top: calc(
+		50% - 90px
+	); /* Para que quede centrada le decimos que al 50% del alto le reste la mitad del alto de la barra: 16px de la letra + 10 padding-top + 10padding-bottom */
+	z-index: 20;
+}
+.social ul {
+	display: block;
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block; /* porque le quiero agregar padding */
+	color: white;
+	background: black;
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.social ul li .icon-facebook {
+	background: #3b5998;
+} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {
+	background: #00abf0;
+}
+.social ul li .icon-instagram {
+	background: #e4405f;
+}
+.social ul li .icon-whatsapp {
+	background: #25d366;
+}
+.social ul li .icon-mail {
+	background: #666666;
+}
+
+.social ul li a:hover {
+	background-color: black;
+	padding-inline: 2rem;
 }
