@@ -1,0 +1,7 @@
+.offcanvas-body ul li {
+	padding: 1rem;
+	list-style-type: none;
+	a {
+		color: white;
+	}
+}
