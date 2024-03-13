@@ -7,3 +7,7 @@
 - PokeApi: HTML CSS
 ### Parte 3
 - Login: JS
+
+## Ayudantia 2
+### Parte 1
+- Login: Bootstrap JQuery
