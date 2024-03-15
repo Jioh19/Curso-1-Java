@@ -21,6 +21,7 @@ nav {
 	width: 100%;
 
 	background-color: rgba(100, 100, 100, 0.7);
+	backdrop-filter: blur(10px);
 	padding: 1rem;
 	text-align: right;
 	li {
