@@ -11,3 +11,7 @@
 ## Ayudantia 2
 ### Parte 1
 - Login: Bootstrap JQuery
+
+## Ayudantia 3
+### index.html: HTML CSS Basico
+### curriculum.html: HTML CSS Basico
