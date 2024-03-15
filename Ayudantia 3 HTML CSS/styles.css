@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.perfil {
+	display: block;
+	width: 20rem;
+	margin: 2rem auto;
+	border-radius: 50%;
+}
+
+h1,
+h2 {
+	margin-block: 1rem;
+	text-align: center;
+	background-color: gold;
+}
+
+li {
+	margin-inline: 2rem;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	background: gold;
+	img {
+		background: black;
+	}
+}
