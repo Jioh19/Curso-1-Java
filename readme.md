@@ -15,3 +15,9 @@
 ## Ayudantia 3
 ### index.html: HTML CSS Basico
 ### curriculum.html: HTML CSS Basico
+
+## Ayudantia 4
+### curriculum.html: HTML CSS 
+
+## Ayudantia 5
+### Problemas PSeint: Pseudo Codigo
