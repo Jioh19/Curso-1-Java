@@ -21,3 +21,6 @@
 
 ## Ayudantia 5
 ### Problemas PSeint: Pseudo Codigo
+
+## Ayudantia 6
+### Promedio, CostoTraje, Fibonnacci, Sumatoria: HTML JS
