@@ -27,12 +27,12 @@ public class Parentesis {
         for(int i = 0; i < line.length(); i++) {
 
             if(line.charAt(i) == '(') {
-                acum++;
+                piso++;
             }
             if(line.charAt(i) == ')'){
-                acum--;
+                piso--;
             }
-            if(acum == -1) {
+            if(piso == -1) {
                 System.out.println(line.length());
                 System.out.println(i);
                 break;
