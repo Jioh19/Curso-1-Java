@@ -18,3 +18,4 @@ public class factorial {
         System.out.println(result);
     }
 }
+// String str = "abcdef";
