@@ -4,6 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/**
+ * @author jioh
+ * @version 1.1
+ *
+ */
 public class Parentesis {
     public static void main(String[] args) throws FileNotFoundException {
         File fl = new File("input.txt");
