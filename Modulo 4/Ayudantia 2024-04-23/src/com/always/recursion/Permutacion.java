@@ -14,7 +14,7 @@ public class Permutacion {
     private static void generarPermu(String str, String curr, List<String> permu) {
         if(str.isEmpty()) {
             permu.add(curr);
-            return;
+            return;i
         }
 
         for(int i = 0; i < str.length(); i++) {
