@@ -12,12 +12,13 @@ public class advent3 {
         Scanner sc = new Scanner(fl);
         var input = sc.nextLine();
 
-        Map<String, Integer> coords = new HashMap<String, Integer>();
+        Map<Coord, Integer> coords = new HashMap<>();
 
         int i = 0;
         int j = 0;
 
-        var inicio = i+","+j; // inicio = "0,0"
+        //var inicio = i+","+j; // inicio = "0,0"
+        var inicio = new Coord(0 , 0);
         coords.put(inicio, 1);
 
         for(int pos = 0; pos < input.length(); pos++) {
@@ -35,12 +36,10 @@ public class advent3 {
                 case '<':
                     j--;
                     break;
-                default:
-                    System.out.println("Comando equivocado");
-                    break;
             }
-            var point = i+","+j;
-            coords.put(point, coords.getOrDefault(point, 1) + 1);
+            //var point = i+","+j;
+            var point = new Coord(i , j);
+            coords.put(point, coords.getOrDefault(point, 0) + 1);
         }
         System.out.println(coords.size());
     }
