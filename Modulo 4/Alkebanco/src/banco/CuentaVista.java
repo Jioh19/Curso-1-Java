@@ -24,10 +24,10 @@ public class CuentaVista extends Cuenta{
 
     @Override
     public boolean retirar(double retiro) {
-        if(saldo < retiro) {
+        if(saldo < retiro+300) {
             return false;
         }
-        saldo -= retiro;
+        saldo -= retiro+300;
         return true;
     }
 
