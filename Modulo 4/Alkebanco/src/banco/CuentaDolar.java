@@ -9,7 +9,7 @@ public class CuentaDolar extends Cuenta implements Conversor{
     }
 
     /**
-     * 
+     *
      * @param deposito
      * @return
      */
@@ -24,6 +24,11 @@ public class CuentaDolar extends Cuenta implements Conversor{
         }
     }
 
+    /**
+     * 
+     * @param retiro
+     * @return
+     */
     @Override
     public boolean retirar(double retiro) {
         if(saldo < retiro*1.02) {
