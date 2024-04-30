@@ -5,9 +5,13 @@ import java.util.List;
 
 public class Biblioteca {
     public static void main(String[] args) {
-        Libro libro1 = new Libro("Biblia", "Dios");
-        Libro libro2 = new Libro("Romeo y Julieta", "Shakespeare");
-        Libro libro3 = new Libro("Grandes pensamiento de Xi Jing Ping", "Xi Jing Ping");
+        Autor autor1 = new Autor("Dios", "Divina");
+        Autor autor2 = new Autor("William Shakespeare", "Ingles");
+        Autor autor3 = new Autor("Xi Jing Ping", "China");
+        Libro libro1 = new Libro("Biblia", autor1);
+        Libro libro2 = new Libro("Romeo y Julieta", autor2, "13ra Edicion", "jfkdlsjfkldsjfkl",
+                "1621", "Inglaterra");
+        Libro libro3 = new Libro("Grandes pensamiento de Xi Jing Ping", autor3);
 
         List<Libro> libros = new ArrayList<Libro>();
         libros.add(libro1);
@@ -15,7 +19,7 @@ public class Biblioteca {
         libros.add(libro3);
 
         for(Libro l : libros) {
-            System.out.println("1-" + l.getAutor() + " " + l.getNombre());
+            System.out.println(l);
         }
 
         for(int i = 0; i < libros.size(); i++) {
