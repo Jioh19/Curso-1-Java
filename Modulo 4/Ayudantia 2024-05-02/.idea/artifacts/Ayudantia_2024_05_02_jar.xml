@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ayudantia 2024-05-02:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ayudantia_2024_05_02_jar</output-path>
+    <root id="archive" name="Ayudantia 2024-05-02.jar">
+      <element id="module-output" name="Ayudantia 2024-05-02" />
+    </root>
+  </artifact>
+</component>
