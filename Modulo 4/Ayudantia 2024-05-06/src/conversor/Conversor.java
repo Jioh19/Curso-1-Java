@@ -42,8 +42,10 @@ public class Conversor {
             if(monedaBase == null || monedaDestino == null) {
                 throw new RuntimeException("Ingresa una moneda válida");
             }
-            System.out.println("Moneda base " + monedaBase);
-            System.out.println("Moneda destino " + monedaDestino);
+            System.out.println("Moneda base " + monedaBase.getCode());
+            System.out.println("Moneda destino " + monedaDestino.getCode());
+            System.out.printf("Monto base: %.2f\nMonto destino: %.2f", monto,
+                    (monto * monedaDestino.getTasa() / monedaBase.getTasa()));
 
         } catch (InputMismatchException e) {
             System.err.println("Ingresa un número válido");
