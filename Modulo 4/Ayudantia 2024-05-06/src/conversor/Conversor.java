@@ -40,7 +40,7 @@ public class Conversor {
                 }
             }
             if(monedaBase == null || monedaDestino == null) {
-                throw new RuntimeException("Ingresa una moneda válida");
+                throw new MiException("Ingresa una moneda válida");
             }
             System.out.println("Moneda base " + monedaBase.getCode());
             System.out.println("Moneda destino " + monedaDestino.getCode());
@@ -50,7 +50,7 @@ public class Conversor {
         } catch (InputMismatchException e) {
             System.err.println("Ingresa un número válido");
             convertir();
-        } catch (RuntimeException e) {
+        } catch (MiException e) {
             System.err.println(e.getMessage());
             convertir();
         } catch (Exception e) {
