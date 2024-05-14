@@ -1,15 +1,10 @@
-package org.example.main.service;
+package org.example.service;
 
-import org.example.main.model.Cuenta;
+import org.example.model.Cuenta;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class ServiceCuentaTest {
 

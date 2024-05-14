@@ -1,6 +1,6 @@
-package org.example.main.service;
+package org.example.service;
 
-import org.example.main.model.Cliente;
+import org.example.model.Cliente;
 
 import java.util.HashMap;
 import java.util.Map;
