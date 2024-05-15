@@ -44,17 +44,64 @@ public class EmpleadoRepositorio implements Repositorio<Empleado> {
 
     @Override
     public Empleado obtenerPorId(int id) throws SQLException {
-        return null;
+        Empleado empleado = null;
+        try (
+                Connection connection = obtenerConexion();
+                PreparedStatement preparedStatement =
+                        connection.prepareStatement("SELECT * FROM empleados WHERE id =?")
+        ) {
+            preparedStatement.setInt(1, id);
+            try (
+                    ResultSet resultSet = preparedStatement.executeQuery()) {
+                if (resultSet.next()) {
+                    empleado = crearEmpleado(resultSet);
+                }
+            }
+
+        }
+        return empleado;
     }
 
     @Override
-    public void guardar(Empleado empleado) throws SQLException {
+    public void guardar(Empleado empleado) {
+        if (empleado == null) {
+            return;
+        }
+        String sql;
+        if (empleado.getId() > 0) {
+            sql = "UPDATE empleados SET nombre=?, primerApellido=?" +
+                    "segundoApellido=?, email=?, salario=? WHERE id=?";
+        } else {
+            sql = "INSERT INTO empleados (nombre, primerApellido, segundoApellido, email, salario)" +
+                    "VALUES (?,?,?,?,?)";
+        }
+
+        try (
+                Connection connection = obtenerConexion();
+                PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+
+            preparedStatement.setString(1, empleado.getNombre());
+            preparedStatement.setString(2, empleado.getPrimerApellido());
+            preparedStatement.setString(3, empleado.getSegundoApellido());
+            preparedStatement.setString(4, empleado.getEmail());
+            preparedStatement.setFloat(4, empleado.getSalario());
+
+            if(empleado.getId() > 0) {
+                preparedStatement.setInt(6, empleado.getId());
+            }
+
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
 
     }
 
     @Override
     public void eliminar(int id) throws SQLException {
-        try(
+        try (
                 Connection connection = obtenerConexion();
                 PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM empleados WHERE id=?")) {
             preparedStatement.setInt(1, id);
