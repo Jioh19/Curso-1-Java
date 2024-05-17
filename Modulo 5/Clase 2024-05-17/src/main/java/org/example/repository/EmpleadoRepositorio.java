@@ -23,7 +23,7 @@ public class EmpleadoRepositorio implements Repositorio<Empleado> {
                         .executeQuery("SELECT * FROM empleados")) {
             while (resultSet.next()) {
                 Empleado empleado = crearEmpleado(resultSet);
-                System.out.println(empleado);
+                empleados.add(empleado);
             }
         }
         return empleados;
@@ -64,12 +64,10 @@ public class EmpleadoRepositorio implements Repositorio<Empleado> {
 
     @Override
     public void guardar(Empleado empleado) {
-        if (empleado == null) {
-            return;
-        }
+
         String sql;
-        if (empleado.getId() > 0) {
-            sql = "UPDATE empleados SET nombre=?, primerApellido=?" +
+        if (empleado.getId() != null) {
+            sql = "UPDATE empleados SET nombre=?, primerApellido=?," +
                     "segundoApellido=?, email=?, salario=? WHERE id=?";
         } else {
             sql = "INSERT INTO empleados (nombre, primerApellido, segundoApellido, email, salario)" +
@@ -84,9 +82,9 @@ public class EmpleadoRepositorio implements Repositorio<Empleado> {
             preparedStatement.setString(2, empleado.getPrimerApellido());
             preparedStatement.setString(3, empleado.getSegundoApellido());
             preparedStatement.setString(4, empleado.getEmail());
-            preparedStatement.setFloat(4, empleado.getSalario());
+            preparedStatement.setFloat(5, empleado.getSalario());
 
-            if(empleado.getId() > 0) {
+            if(empleado.getId() != null) {
                 preparedStatement.setInt(6, empleado.getId());
             }
 
