@@ -4,24 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8d5d317-c476-4a98-bfb4-1f361b83201f" name="Changes" comment="">
+    <list default="true" id="5e23aeb6-64f3-46d1-886b-a5118937980c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/.idea/material_theme_project_new.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-20/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Modulo 4/Clase2024-05-13/src/main/java/org/example/util/ConexionDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo 4/Clase2024-05-13/src/main/java/org/example/util/ConexionDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2gjtZwp0FcRkQ1wJPJFjZxDBV4d" />
+  <component name="ProjectId" id="2go1ryQOeep5gIMjY493vuOoxvt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,38 +66,27 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.Tomcat: Clase2024-05-20.executor": "Run",
+    "Smart Tomcat.Tomcat: personal.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/personal",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Clase 2024-05-20" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Clase 2024-05-20" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat: Clase2024-05-20" type="com.poratu.idea.plugins.tomcat">
+    <configuration name="Tomcat: personal" type="com.poratu.idea.plugins.tomcat" temporary="true">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="" />
-      <option name="contextPath" value="/Clase2024-05-20" />
+      <option name="contextPath" value="/personal" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
@@ -104,20 +97,25 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
-      <module name="Clase2024-05-20" />
+      <module name="personal" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Smart Tomcat.Tomcat: personal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8d5d317-c476-4a98-bfb4-1f361b83201f" name="Changes" comment="" />
-      <created>1716222874865</created>
+      <changelist id="5e23aeb6-64f3-46d1-886b-a5118937980c" name="Changes" comment="" />
+      <created>1716349319962</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716222874865</updated>
+      <updated>1716349319962</updated>
     </task>
     <servers />
   </component>

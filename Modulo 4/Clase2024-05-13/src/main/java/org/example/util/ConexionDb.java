@@ -27,6 +27,7 @@ public class ConexionDb {
             pool.setMaxIdle(10);
         }
         return pool;
+
     }
 
     public static Connection getConection() throws SQLException {

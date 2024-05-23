@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54c533cb-457a-42cd-9d67-d3ff86545a96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-22/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-22/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../personal/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo 4/Clase2024-05-13/src/main/java/org/example/util/ConexionDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo 4/Clase2024-05-13/src/main/java/org/example/util/ConexionDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jioh19&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jioh19/Cursada1.git&quot;,
+    &quot;accountId&quot;: &quot;3d65468c-694f-414a-a077-9424caa9ac9b&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gjyIX6ri2DBlPQYVDvDqKA5FHg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Smart Tomcat.Tomcat: Ayudantia2024-05-20.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-22",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54c533cb-457a-42cd-9d67-d3ff86545a96" name="Changes" comment="" />
+      <created>1716225202871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716225202871</updated>
+    </task>
+    <servers />
+  </component>
+</project>
