@@ -4,27 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8d5d317-c476-4a98-bfb4-1f361b83201f" name="Changes" comment="" />
+    <list default="true" id="de059b06-0f22-412e-8917-6c11270a4c33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Jioh19&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Jioh19/Cursada1.git&quot;,
-    &quot;accountId&quot;: &quot;3d65468c-694f-414a-a077-9424caa9ac9b&quot;
-  }
-}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -32,10 +35,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2gjtZwp0FcRkQ1wJPJFjZxDBV4d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,38 +46,23 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.Tomcat: Clase2024-05-20.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Tomcat: Clase2024-05-23.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Clase 2024-05-17",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-22",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Clase 2024-05-20" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Clase 2024-05-20" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat: Clase2024-05-20" type="com.poratu.idea.plugins.tomcat">
+    <configuration name="Tomcat: Clase2024-05-23" type="com.poratu.idea.plugins.tomcat" temporary="true">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="" />
-      <option name="contextPath" value="/Clase2024-05-20" />
+      <option name="contextPath" value="/Clase2024-05-23" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
@@ -86,20 +73,25 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
-      <module name="Clase2024-05-20" />
+      <module name="Clase2024-05-23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Smart Tomcat.Tomcat: Clase2024-05-23" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8d5d317-c476-4a98-bfb4-1f361b83201f" name="Changes" comment="" />
-      <created>1716222874865</created>
+      <changelist id="de059b06-0f22-412e-8917-6c11270a4c33" name="Changes" comment="" />
+      <created>1716476382992</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716222874865</updated>
+      <updated>1716476382992</updated>
     </task>
     <servers />
   </component>
