@@ -4,6 +4,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,6 +33,29 @@ public class FormServlet extends HttpServlet {
         }
         if(pais == null || pais.isEmpty()) {
             errores.put("pais", "debe ingresar un pais válido");
+        }
+        if(errores.isEmpty()) {
+            try (PrintWriter out = resp.getWriter()) {
+                out.println("<!DOCTYPE html>");
+                out.println("<html lang=\"es\">");
+                out.println("<head>");
+                out.println("<meta charset=\"UTF-8\">");
+                out.println("<title>Registro</title>");
+                out.println("</head>");
+                out.println("<body>");
+                out.println("<h1>Registro</h1>");
+                out.println("<ul>");
+                out.println("<li>Usuario: " + username + "</li>");
+                out.println("<li>Password: " + password + "</li>");
+                out.println("<li>Email: " + email + "</li>");
+                out.println("<li>Pais: " + pais + "</li>");
+                out.println("</ul>");
+                out.println("</body>");
+                out.println("</html>");
+            }
+        }else {
+            req.setAttribute("errores", errores);
+            req.getRequestDispatcher("/index.jsp").forward(req, resp);
         }
     }
 }

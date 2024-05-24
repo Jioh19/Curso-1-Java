@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10311068-5161-4ec6-bf26-24c145b76450" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo 4/Alkebanco/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo 4/Alkebanco/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/alkemy/servlet/CreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/alkemy/servlet/CreateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-23/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/java/FormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/java/FormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase 2024-05-23/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jioh19"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jioh19&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jioh19/Cursada1.git",
-    "accountId": "3d65468c-694f-414a-a077-9424caa9ac9b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jioh19/Cursada1.git&quot;,
+    &quot;accountId&quot;: &quot;3d65468c-694f-414a-a077-9424caa9ac9b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gsR4JXQlb7sIh2qS1G3LVf7izT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -71,12 +59,19 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Tomcat: Ayudantia2024-05-23.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-24",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClienteRepo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: Ayudantia2024-05-23">
     <configuration name="ClienteRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cl.alkemy.repositorio.ClienteRepo" />
       <module name="Ayudantia2024-05-23" />
@@ -103,8 +98,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat: Ayudantia2024-05-23" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="/Ayudantia2024-05-23" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.19" />
+          <option name="path" value="$USER_HOME$/Tomcat/apache-tomcat-10.1.19" />
+          <option name="version" value="10.1.19.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Ayudantia2024-05-23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Smart Tomcat.Tomcat: Ayudantia2024-05-23" />
         <item itemvalue="Application.ClienteRepo" />
         <item itemvalue="Application.ConexionDb" />
       </list>
