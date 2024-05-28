@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de059b06-0f22-412e-8917-6c11270a4c33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../Modulo 4/Alkebanco/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo 4/Alkebanco/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ayudantia 2024-05-23/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-23/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ayudantia 2024-05-23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-23/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ayudantia 2024-05-24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-24/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ayudantia 2024-05-24/src/main/java/cl/alkemy/servlet/CreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ayudantia 2024-05-24/src/main/java/cl/alkemy/servlet/CreateServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
     "Smart Tomcat.Tomcat: Clase2024-05-23.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-23",
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Clase 2024-05-23",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
