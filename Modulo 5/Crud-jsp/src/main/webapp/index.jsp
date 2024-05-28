@@ -5,7 +5,7 @@
 <body>
 <h2>LOGIN</h2>
 input
-nobmre
+nombre
 clave
 submit
 

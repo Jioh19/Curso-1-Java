@@ -1,6 +1,6 @@
 package model;
 
-public class Category {
+public class Categoria {
     private Long id;
     private String nombre;
 

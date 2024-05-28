@@ -6,7 +6,7 @@ import java.time.LocalDate;
 public class Producto {
     private Long id;
     private String nombre;
-    private Category categoria;
+    private Categoria categoria;
     private int precio;
     private String sku;
     private LocalDate fechaRegistro;
@@ -14,7 +14,7 @@ public class Producto {
     public Producto() {
 
     }
-    public Producto(Long id, String nombre, Category categoria, int precio, String sku, LocalDate fechaRegistro) {
+    public Producto(Long id, String nombre, Categoria categoria, int precio, String sku, LocalDate fechaRegistro) {
         this.id = id;
         this.nombre = nombre;
         this.categoria = categoria;
@@ -39,11 +39,11 @@ public class Producto {
         this.nombre = nombre;
     }
 
-    public Category getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(Category categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
