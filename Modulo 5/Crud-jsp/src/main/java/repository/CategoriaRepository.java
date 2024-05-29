@@ -60,17 +60,17 @@ public class CategoriaRepository implements Repository<Categoria> {
     @Override
     public void guardar(Categoria categoria) throws SQLException {
         String sql;
-        if(categoria.getId()>0) {
+        if(categoria.getId() != null && categoria.getId()>0) {
             sql = "UPDATE categorias SET nombre=? where id=?";
         } else {
-            sql = "INSERT INTO categorias (nombre) VALUES(?)";
+            sql = "INSERT INTO categorias (nombre) VALUES (?)";
         }
         try(PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setString(1, categoria.getNombre());
-            if(categoria.getId()> 0) {
+            if(categoria.getId() != null && categoria.getId()> 0) {
                 preparedStatement.setLong(2, categoria.getId());
             }
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         }
     }
 
@@ -80,7 +80,7 @@ public class CategoriaRepository implements Repository<Categoria> {
         String sql = "DELETE FROM categorias WHERE id=?";
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setLong(1, id);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         }
     }
 }

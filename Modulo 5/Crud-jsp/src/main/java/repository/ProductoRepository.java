@@ -79,7 +79,7 @@ public class ProductoRepository implements Repository<Producto>{
     @Override
     public void guardar(Producto producto) throws SQLException {
         String sql;
-        if(producto.getId()>0) {
+        if(producto.getId() != null && producto.getId()>0) {
             sql = "UPDATE productos SET nombre=?, precio=?, sku=? WHERE id=?";
         } else {
             sql = "INSERT INTO productos (nombre, precio, sku, categoria_id, fecha_registro)" +
@@ -90,7 +90,7 @@ public class ProductoRepository implements Repository<Producto>{
             preparedStatement.setInt(2, producto.getPrecio());
             preparedStatement.setString(3, producto.getSku());
             preparedStatement.setLong(4, producto.getCategoria().getId());
-            if(producto.getId() > 0) {
+            if(producto.getId() != null && producto.getId() > 0) {
                 preparedStatement.setLong(5, producto.getId());
             } else {
                 preparedStatement.setDate(5, Date.valueOf(producto.getFechaRegistro()));

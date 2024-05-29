@@ -27,7 +27,7 @@ public class ClienteRepo implements Repositorio<Cliente> {
 
     public static void main(String[] args) {
         ClienteRepo repo = new ClienteRepo();
-        Cliente cliente = new Cliente(1, "Juan", "Oh", "15335679-3");
+        Cliente cliente = new Cliente( "Oskar", "Pinochet", "123456789-3");
         try {
             repo.crear(cliente);
         } catch (SQLException e) {

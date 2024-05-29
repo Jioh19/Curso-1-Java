@@ -32,14 +32,14 @@ public class ConexionDb {
         return pool;
     }
 
-    public static Connection getConection() throws SQLException {
+    public static Connection getConnection() throws SQLException {
         return getPool().getConnection();
     }
 
     public static void main(String[] args) {
         ConexionDb conex = new ConexionDb();
         try {
-            Connection conexion = conex.getConection();
+            Connection conexion = conex.getConnection();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
