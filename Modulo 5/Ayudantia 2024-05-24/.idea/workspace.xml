@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10311068-5161-4ec6-bf26-24c145b76450" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/alkemy/repositorio/ClienteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/alkemy/repositorio/ClienteRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-jsp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/CategoriaRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,20 +57,27 @@
   "keyToString": {
     "Application.ClienteRepo.executor": "Run",
     "Application.ConexionDb.executor": "Run",
+    "Application.cl.alkemy.dao.ClienteRepo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Smart Tomcat.Tomcat: Ayudantia2024-05-23.executor": "Run",
+    "com.google.cloudcode.ide_session_index": "20240529_0001",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Entregas/Modulo 5/Boris Salgado/AlkeWalletModulo_4",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-24/src/main/java/cl/alkemy/dao",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39008266",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
-  <component name="RunManager" selected="Smart Tomcat.Tomcat: Ayudantia2024-05-23">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cl/alkemy/dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.cl.alkemy.dao.ClienteRepo">
     <configuration name="ClienteRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cl.alkemy.repositorio.ClienteRepo" />
       <module name="Ayudantia2024-05-23" />
@@ -95,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cl.alkemy.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cl.alkemy.dao.ClienteRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.alkemy.dao.ClienteRepo" />
+      <module name="Ayudantia2024-05-23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.alkemy.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +143,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
       <item itemvalue="Application.ClienteRepo" />
       <item itemvalue="Application.ConexionDb" />
       <item itemvalue="Smart Tomcat.Tomcat: Ayudantia2024-05-23" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
         <item itemvalue="Smart Tomcat.Tomcat: Ayudantia2024-05-23" />
         <item itemvalue="Application.ClienteRepo" />
         <item itemvalue="Application.ConexionDb" />
