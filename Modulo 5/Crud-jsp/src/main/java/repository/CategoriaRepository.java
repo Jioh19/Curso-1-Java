@@ -13,7 +13,7 @@ public class CategoriaRepository implements Repository<Categoria> {
 
     public CategoriaRepository() {
         try {
-            this.connection = ConexionDb.getConection();
+            this.connection = ConexionDb.getConnection();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

@@ -14,7 +14,7 @@ public class ProductoRepository implements Repository<Producto>{
 
     public ProductoRepository() {
         try {
-            this.connection = ConexionDb.getConection();
+            this.connection = ConexionDb.getConnection();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

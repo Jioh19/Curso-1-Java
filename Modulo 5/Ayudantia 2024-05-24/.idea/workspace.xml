@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="10311068-5161-4ec6-bf26-24c145b76450" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/CategoriaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-jsp/src/main/java/repository/ProductoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +64,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Smart Tomcat.Tomcat: Ayudantia2024-05-23.executor": "Run",
-    "com.google.cloudcode.ide_session_index": "20240529_0001",
+    "com.google.cloudcode.ide_session_index": "20240531_0000",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-24/src/main/java/cl/alkemy/dao",
+    "last_opened_file_path": "/run/media/jioh/Jioh External USB/Projects/Always English Alkemy/Clase-1/Modulo 5/Ayudantia 2024-05-24",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39008266",
@@ -77,7 +79,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/cl/alkemy/dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cl.alkemy.dao.ClienteRepo">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: Ayudantia2024-05-23">
     <configuration name="ClienteRepo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cl.alkemy.repositorio.ClienteRepo" />
       <module name="Ayudantia2024-05-23" />
@@ -123,17 +125,15 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="adminPort" value="8006" />
-      <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/Ayudantia 2024-05-24/Ayudantia2024-05-23" />
+      <option name="catalinaBase" value="" />
       <option name="contextPath" value="/Ayudantia2024-05-23" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="extraClassPath" value="" />
-      <option name="port" value="8081" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.19" />
-          <option name="path" value="$USER_HOME$/Tomcat/apache-tomcat-10.1.19" />
-          <option name="version" value="10.1.19.0" />
+          <option name="name" value="Apache Tomcat/10.1.24 (2)" />
+          <option name="path" value="$USER_HOME$/Tomcat/apache-tomcat-10.1.24" />
+          <option name="version" value="10.1.24.0" />
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
@@ -142,16 +142,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.19" />
+          <option name="path" value="$USER_HOME$/Tomcat/apache-tomcat-10.1.19" />
+          <option name="version" value="10.1.19.0" />
+        </TomcatInfo>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
       <item itemvalue="Application.ClienteRepo" />
       <item itemvalue="Application.ConexionDb" />
+      <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
       <item itemvalue="Smart Tomcat.Tomcat: Ayudantia2024-05-23" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
         <item itemvalue="Smart Tomcat.Tomcat: Ayudantia2024-05-23" />
+        <item itemvalue="Application.cl.alkemy.dao.ClienteRepo" />
         <item itemvalue="Application.ClienteRepo" />
         <item itemvalue="Application.ConexionDb" />
       </list>
