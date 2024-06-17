@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Monitor de Inventario</title>
+</head>
+<body>
+<h1 class="m-3 pi-5">Monitor de Inventario</h1>
+
+<form class="mi-3 p-3 d-flex gap-5" th:action="@{/}" method="post" th:object="${info}">
+    <select id="store" name="store" class="form-select" aria-label="Default select example">
+        <option selected>Seleccione Tienda</option>
+        <option th:each="store: ${stores}" th:value="${store}" th:text="${store}"></option>
+    </select>
+    <select id="category" name="category" class="form-select" aria-label="Default select example">
+        <option selected>Seleccione Categoría</option>
+        <option th:each="category: ${categories}" th:value="${category}" th:text="${category}"></option>
+    </select>
+    <select id="brand" name="brand" class="form-select" aria-label="Default select example">
+        <option selected>Seleccione Marca</option>
+        <option th:each="brand: ${brands}" th:value="${brand}" th:text="${brand}"></option>
+    </select>
+    <input type="submit" value="Enviar" class="btn btn-primary">
+</form>
+
+<table class="table table-striped p-3 m-3">
+    <thead>
+    <tr>
+        <th scope="col">Tienda</th>
+        <th scope="col">Id Producto</th>
+        <th scope="col">Nombre Producto</th>
+        <th scope="col">Inventario</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item: ${inventario}">
+        <td th:text="${item.store_name}"></td>
+        <td th:text="${item.product_id}"></td>
+        <td th:text="${item.product_name}"></td>
+        <td th:text="${item.quantity}"></td>
+
+
+    </tr>
+    </tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
