@@ -2,6 +2,7 @@ package cl.alke.bike69.controller;
 
 import cl.alke.bike69.model.Info;
 import cl.alke.bike69.model.Inventario;
+import cl.alke.bike69.model.Store;
 import cl.alke.bike69.service.BrandService;
 import cl.alke.bike69.service.Categoryservice;
 import cl.alke.bike69.service.StoreService;
@@ -33,6 +34,7 @@ public class Inicio {
         List<String> stores = storeService.getTienda();
         List<String> categories = categoryservice.getCategoria();
         List<String> brands = brandService.getBrand();
+
         model.addAttribute("stores", stores);
         model.addAttribute("categories", categories);
         model.addAttribute("brands", brands);

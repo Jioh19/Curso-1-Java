@@ -9,7 +9,7 @@
 <body>
 <h1 class="m-3 pi-5">Monitor de Inventario</h1>
 
-<form class="mi-3 p-3 d-flex gap-5" th:action="@{/}" method="post" th:object="${info}">
+<form class="mi-3 p-3 d-flex gap-5" th:action="@{/api/post}" method="post" th:object="${info}">
     <select id="store" name="store" class="form-select" aria-label="Default select example">
         <option selected>Seleccione Tienda</option>
         <option th:each="store: ${stores}" th:value="${store}" th:text="${store}"></option>
